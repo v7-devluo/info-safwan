@@ -326,12 +326,15 @@
     height:100%;
     border-radius:50%;
     object-fit:cover;
+    position:relative;
+    z-index:1;
+    border:2px solid #000;
 }
 
 .avatar-wrap::before{
     content:'';
     position:absolute;
-    inset:-3px;
+    inset:-4px;
     border-radius:50%;
     border:3px solid transparent;
     border-top-color:#00f3ff;
